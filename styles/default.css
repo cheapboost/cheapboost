@@ -1,0 +1,444 @@
+.boost-orders {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 11px;
+	margin: 45px 0 45px 0;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+.boost-orders th {
+	font-size: 10px;
+	padding: 8px;
+	background: #ED9121;
+	background-color: #333;
+	border-top: 4px solid #222;
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+}
+.boost-orders td {
+	padding: 8px;
+	background: #111;
+	border-bottom: 1px solid #222;
+	color: #fff;
+	border-top: 1px solid transparent;
+	text-align: center;
+}
+
+.boost-orders tr.locked td {
+	background-color: #500;
+}
+
+.boost-orders tr.processing td {
+	background-color: #005;
+}
+
+.boost-orders tr.ready td {
+	background-color: #050;
+}
+
+.boost-orders tr.ready:hover td {
+	background: #019CFF;
+	color: #fff;
+	cursor: pointer;
+}
+
+.boost-orders th.table-header {
+	text-align: center;
+	font-size: 12px;
+	background-color: #555;
+}
+
+.boost-orders a {
+	color: #fff;
+}
+
+.logged-in { 
+	float: right; 
+	font-size: 9px;
+	color: #fff;
+	margin-bottom: 40px;
+	margin-right: 5px;
+}
+
+.logged-in a {
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-family: verdana;
+}
+
+#boost-log {
+	clear: both;
+	height: 200px;
+	overflow-y: scroll;
+	color: white;
+	background-color: #222;
+	padding: 15px;
+}
+
+#boost-log span:hover {
+	background-color: #333;
+}
+
+.button {
+	padding: 2px 18px 2px 18px;
+	font-size:10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-weight:normal;
+	text-decoration: none;
+	color:#444;
+	background-color:#DDD;
+	border-style:double;
+	border-color:#999;
+	border-width:3px;
+}
+.button:hover {
+	color:#444;
+}
+.button:active {
+	background-color:#999;
+	border-style:double;
+	border-color:#DDD;
+	border-width:3px;
+}
+
+td.center {
+	text-align: center;
+}
+
+.messages-cont h2 {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+.message-box {
+	width: 320px;
+	height: 80px;
+	background-color: #222;
+}
+
+.message-box .message-image {
+	float: left;
+	width: 100px;
+	height: 80px;
+	background-color: #333;
+	font-weight: bold;
+	text-align: center;
+}
+
+.message-box .message-body {
+	font-size: 0.9em;
+	padding: 5px;
+}
+
+#status-cont {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#status-bar {
+	width: 100%;
+}
+
+#status-bar-empty {
+	height: 24px;
+	width: 400px;
+	margin: 0 auto;
+	background-color: #222;
+	color: #eee;
+	float: center;
+	text-align: center;
+	font-weight: bold;
+}
+
+#status-bar-full {
+	background-image: url('/styles/images/bar-full.bmp');
+	background-repeat: repeat-x;
+	height: 24px;
+	margin-top: -20px;
+}
+
+.starting-elo {
+	color: #eee;
+	float: left; width: 100px;
+}
+
+.desired-elo {
+	color: #eee;
+	float: right; width: 100px;
+}
+
+.login-box {
+	width: 250px;
+	margin: 0 auto;
+}
+
+.login-box h3 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.login-content {
+	text-align: right;
+}
+
+.login-field label {
+	float: left;
+}
+
+#login-button {
+	margin: auto 0;
+	margin-top: 20px;
+}
+
+.submit {
+	background-color: #111;
+	border-color: #EEE;
+	border-radius: 8px;
+	width: 180px;
+	color: #EEE;
+	font-weight: bold;
+	font-size: 1.3em;
+	float: right;
+	margin-right: 155px;
+}
+
+.order-form {
+	margin: 30px auto 0 auto;
+	width: 500px;
+}
+
+.order-form h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #019CFF;
+	text-align: center;
+}
+
+.order-form h2 {
+	font-size: 1.2em;
+}
+
+.hidden {
+	visibility: hidden;
+	position: absolute;
+}
+
+.field {
+	background-color: #222;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 0 0 10px 0;
+}
+
+.help-text {
+	float: right;
+	background-color: #444;
+	padding: 8px;
+	border-radius: 4px;
+	color: #eee;
+	font-size: 0.9em;
+	position: absolute;
+	margin-left: 510px;
+	margin-top: -10px;
+	width: 180px;
+}
+
+.help-text .help-tick {
+	width: 0; 
+	height: 0;
+	border-top: 14px solid transparent;
+	border-bottom: 14px solid transparent;
+	border-right: 14px solid #444;
+	margin-left: -20px;
+	float: left;
+}
+
+.help-text p {
+	float: left;
+}
+
+.field label {
+	width: 150px;
+	float: left;
+	color: #eee;
+	text-align: right;
+	margin-right: 5px;
+}
+.field .validate {
+	border-width: 3px;
+	border-style: solid;
+	border-color: #111;
+}
+
+.field.error .validate {
+	border-color: #f11;
+}
+
+.field.valid .validate {
+	border-color: #66C300;
+}
+
+.select-box {
+	font-size: 1.2em;
+	text-align: center;
+}
+.select-box h2 {
+	padding: 20px;
+}
+
+#slideshow-box {
+	width: 900px;
+	height: 400px;
+	background-size: 900px 400px;
+	border-radius: 0.7em;
+}
+
+/* Elo Boost Calculator */
+.calc {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.calc p {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #fff;
+	border: 1px dashed #333;
+	background-color: #222;
+	background-image: url('/images/info-bg.gif');
+	padding: 4px;
+}
+
+.calc .validate-row.error p {
+	background-color: #A22;
+	background-image: none;
+}
+
+.calc .validate-row.valid p {
+	background-color: #292;
+	background-image: none;
+}
+
+.calc .info {
+	text-align: center;
+	font-size: 0.9em;
+	padding: 12px;
+	background-image: none;
+}
+
+.calc label, .calc .label {
+	color: #019cff;
+	font-weight: bold;
+	font-size: 1.0em;
+	padding: 5px;
+}
+
+.calc .cost {
+	margin: 0px;
+}
+
+.calc .pad {
+	margin-top: 30px;
+}
+
+.calc .trigger {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.calc .payment {
+	font-size: 1.8em;
+	color: #4D4;
+	text-align: center;
+	padding: 12px;
+}
+
+.calc .center {
+	display: block;
+	margin: 0 auto;
+}
+
+#tier-image {
+	width: 192px;
+	height: 192px;
+	display: block;
+	margin: 0 auto;
+}
+
+#minimum-order {
+	color: #f00;
+}
+
+.tier-left {
+	float: left;
+}
+
+.tier-right {
+	float: right;
+}
+
+.validate-row {
+	clear: both;
+}
+
+#promoted-to {
+	text-align: center;
+	color: #019cff;
+	clear: both;
+}
+
+span.pro {
+	font-weight: bold;
+	color: #019cff;
+}
+
+.promotion {
+	clear: both;
+}
+
+/* Global */
+
+input.small { width: 24px; }
+input.medium { width: 48px; }
+input.large { width: 72px; }
+input.xlarge { width: 96px; }
+
+button.blue {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#79bbff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528ecc;
+}
+
+button.blue:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+}
+
+button.blue:active {
+	position:relative;
+	top:1px;
+}
+/* This imageless css button was generated by CSSButtonGenerator.com */
+</style>
