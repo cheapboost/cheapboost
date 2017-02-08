@@ -186,13 +186,13 @@ $(document).ready(function() {
 			var div = $('#eloboost-division').val();
 			
 			if (tier != '' && div != '') {
-				$('#tier-image').attr('src', 'cheapboost/images/tiers/' + tier + '_' + div + '.png');
+				$('#tier-image').attr('src', '/images/tiers/' + tier + '_' + div + '.png');
 				
 				if ($(validate_form).hasClass('promotion')) {
 					var next_tier = (div == 4 ? parseInt(tier) + 1 : parseInt(tier));
 					var next_div = (div == 4 ? 0 : parseInt(div) + 1);
 					
-					$('#tier-image0').attr('src', 'cheapboost/images/tiers/' + next_tier + '_' + next_div +'.png');
+					$('#tier-image0').attr('src', '/images/tiers/' + next_tier + '_' + next_div +'.png');
 					
 					var promotion = 'You will be promoted to ' + tier_list[next_tier] + ' Division ' + div_list[next_div];
 					$('#promoted-to').html(promotion);
